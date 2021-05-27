@@ -1,0 +1,20 @@
+{
+  "name": "curriculo-expresso",
+  "version": "1.0.0",
+  "description": "primeiro teste aplicacao node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node node_modules/nodemon/bin/nodemon.js app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miguel Ribeiro",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
